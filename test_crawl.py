@@ -9,8 +9,5 @@ class TestCrawl(unittest.TestCase):
         expected = "www.boot.dev/blog/path"
         self.assertEqual(actual, expected)
 
-
-
-
 if __name__ == "__main__":
     unittest.main()
